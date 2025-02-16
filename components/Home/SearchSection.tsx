@@ -2,6 +2,7 @@ import React from 'react'
 import InputItem from './InputItem'
 
 const SearchSection = () => {
+    console.log("🚀 ~ file: SearchSection.tsx:15 ~ SearchSection ~ test2:")
     return (
         <div className='p-2 md: pd-6 border-[2px] rounded-xl'>
             <p className='text-[20px] font-bold'>Get a ride</p>
