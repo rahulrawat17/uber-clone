@@ -21,7 +21,7 @@ const API_KEY = "AIzaSyCmqC9vjHPUBgxOQ9i_TyDEArK1GLzQeOo"
 
 
 const InputItem = ({ type }: { type: 'source' | 'destination' }) => {
-
+console.log("🚀 ~ file: InputItem.tsx:24 ~ InputItem ~ type:", type)
     const [selectedPlace, setSelectedPlace] =
         useState<google.maps.places.PlaceResult | null>(null);
     const [markerRef, marker] = useAdvancedMarkerRef();
